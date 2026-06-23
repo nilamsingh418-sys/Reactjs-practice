@@ -5,6 +5,7 @@ function Navbar() {
         <nav style={{ padding: "10px", backgroundColor: "#2bc6d4" }}>
             <NavLink style={({ isActive }) => ({ color: isActive ? "blue" : "black" })} to="/">Home</NavLink> |{" "}
             <NavLink style={({ isActive }) => ({ color: isActive ? "blue" : "black" })} to="/form">User Form</NavLink> |{" "}
+            <NavLink style={({ isActive }) => ({ color: isActive ? "blue" : "black" })} to="/contactus">Contact Us</NavLink>    
         </nav>
     )
 }
